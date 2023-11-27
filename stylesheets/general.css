@@ -180,6 +180,13 @@
   line-height: 4rem;
 }
 
+/* Common Widths */
+
+.max-w-h-rectangular {
+  max-height: 100px;
+  max-width: 200px;
+}
+
 /*------------------------------------------*/
 
 *,
