@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="./assets/favicon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./stylesheets/general.css" />
+    <link rel="stylesheet" href="./stylesheets/header.css" />
+    <link rel="stylesheet" href="./stylesheets/footer.css" />
+    <link rel="stylesheet" href="./stylesheets/top-title.css" />
+    <link rel="stylesheet" href="./stylesheets/about.css" />
+    <script src="./script.js"></script>
+    <title>About Nigri</title>
+  </head>
+
+  <body>
+    <main>
+      <div id="land" class="faqs">
+        <div class="wrapper">
+          <div id="header"></div>
+
+          <div class="body">
+            <div class="text">
+              <h2 class="light-black bold">Frequently Asked Questions</h2>
+            </div>
+            <img src="./assets/cloud.svg" alt="cloud" class="cloud" />
+          </div>
+        </div>
+      </div>
+
+      <div id="faqs">
+        <div class="line reverse">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="1171.509"
+            height="1054.599"
+            viewBox="0 0 1171.509 1054.599"
+          >
+            <path
+              id="Path_231"
+              data-name="Path 231"
+              d="M1082.8-98.438V85.993c-468.373,27.122-847.632,514.959-870.492,987.079L28.2,1064.1C55.837,494.336,516.2-71.187,1082.8-98.438"
+              transform="translate(98.438 1082.797) rotate(-90)"
+              fill="#b4e1e8"
+              opacity="0.5"
+            />
+          </svg>
+        </div>
+        <div class="wrapper">
+          <div id="faq-list"></div>
+          <a href="#" class="button btn-center pink-bg pink-shadow bold white">
+            Contact Us
+          </a>
+        </div>
+      </div>
+
+      <script src="./assets/scripts/gsap/gsap.min.js"></script>
+      <script src="./assets/scripts/gsap/ScrollTrigger.min.js"></script>
+      <div id="footer"></div>
+    </main>
+
+    <script src="./assets/scripts/jquery.min.js"></script>
+    <script>
+      loadComponent("./components/nav-bar.html", "header");
+      loadComponent("./components/footer.html", "footer");
+      loadComponent("./components/faqs-list.html", "faq-list");
+    </script>
+    <script>
+      $("#faqs-list .list-item .header").click(function () {
+        $("#faqs-list .list-item .description").toggleClass("active");
+      });
+    </script>
+  </body>
+</html>

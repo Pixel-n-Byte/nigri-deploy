@@ -1,0 +1,93 @@
+#contact-cards .wrapper {
+  width: 75%;
+  margin-top: 70px;
+}
+
+#contact-cards .cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 89px 0px;
+  margin-top: 89px;
+}
+
+#contact-cards .cards-container .card {
+  width: 50%;
+  height: 134px;
+  justify-content: space-between;
+}
+
+#contact-cards .cards-container .card.connect {
+  height: 273px;
+}
+
+#contact-cards .flex {
+  grid-gap: 3rem;
+  margin-top: 4rem;
+  align-items: flex-start;
+}
+#contact-cards .left {
+  width: 65%;
+}
+#contact-cards .right {
+  background-color: var(--blue);
+  max-width: 480px;
+  border-radius: 15px;
+  padding: 3rem;
+}
+
+#contact-cards .right p {
+  color: #fff;
+  margin-bottom: 1rem;
+}
+
+#contact-cards .right .button {
+  margin-top: 2rem;
+  color: var(--blue);
+}
+
+#contact-cards .contact-form {
+  align-items: flex-start;
+}
+
+#contact-cards .contact-form input, #contact-cards .contact-form textarea {
+  max-width: none;
+}
+
+#contact-cards .contact-form .button {
+  margin-left: 0;
+}
+
+@media(max-width: 1000px) {
+  #contact-cards .wrapper {
+    width: 90%;
+    margin-bottom: 8rem;
+  }
+
+  #contact-cards .cards-container .card {
+    width: 100%;
+    height: auto;
+  }
+  #contact-cards .cards-container .card .top{
+    margin-bottom: 2rem;
+  }
+
+  #contact-cards .cards-container .card p {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+  }
+  #contact-cards .cards-container {
+    grid-gap: 4rem 0;
+  }
+}
+@media(max-width: 800px) {
+  #contact-cards .flex {
+    flex-direction: column;
+    margin-bottom: 4rem;
+  }
+  #contact-cards .left {
+    width: 100%;
+  }
+  #contact-cards .right {
+    width: 100%;
+  }
+}

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="./assets/favicon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./stylesheets/general.css" />
+    <link rel="stylesheet" href="./stylesheets/header.css" />
+    <link rel="stylesheet" href="./stylesheets/footer.css" />
+    <link rel="stylesheet" href="./stylesheets/top-title.css" />
+    <link rel="stylesheet" href="./stylesheets/programs/general.css" />
+    <link rel="stylesheet" href="./stylesheets/blog-single.css" />
+    <script src="./script.js"></script>
+    <title>Blog</title>
+  </head>
+
+  <body>
+    <main>
+      <div id="land" class="blog-single">
+        <div class="wrapper">
+          <div id="header"></div>
+        </div>
+        <div class="body flex wrapper">
+          <div class="left">
+            <h2 class="bold">Blog Title Here</h2>
+          </div>
+
+          <div class="right">
+            <div class="img-wrapper">
+              <img src="./assets/updated assets/img-1.png" alt="img" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="blog-content" class="wrapper">
+        <div class="meta">
+          <p>Created: Jan 1, 2022</p>
+          <p>Category: Some Random Category</p>
+        </div>
+        <div class="content-wrapper">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vel
+            lacinia nisl. Sed a pellentesque orci, eu pretium mi. Vivamus
+            ullamcorper, nisi non ornare elementum, augue libero lobortis metus,
+            sit amet suscipit ante sapien id ex. Aliquam in venenatis sapien,
+            sit amet finibus leo. Curabitur a ex vel neque maximus convallis.
+            Etiam eu sapien diam. Etiam pulvinar accumsan turpis, vitae pharetra
+            lacus porta at. Orci varius natoque penatibus et magnis dis
+            parturient montes, nascetur ridiculus mus. Suspendisse erat quam,
+            blandit eget lobortis et, scelerisque vel leo. Sed a porttitor ante.
+            Phasellus ornare, turpis nec commodo suscipit, ex mauris euismod
+            felis, id aliquam eros libero in mauris. Nam nunc metus,
+            pellentesque non egestas vitae, efficitur vel purus. Sed non lacus
+            at est eleifend tempor. Nullam tellus diam, accumsan at ante vitae,
+            imperdiet facilisis lorem.
+          </p>
+          <p>
+            Proin id varius sapien, nec scelerisque enim. Fusce dapibus arcu
+            elementum leo feugiat convallis. Donec ac ullamcorper nibh.
+            Curabitur quis felis vitae augue convallis faucibus nec in sem.
+            Morbi nec metus sit amet ligula egestas efficitur vitae in tortor.
+            Curabitur mi leo, bibendum non sollicitudin a, aliquet dapibus
+            lorem. Morbi vulputate, mi id maximus pretium, arcu velit finibus
+            eros, vitae placerat velit turpis in ex. Ut auctor mauris ac nunc
+            maximus tincidunt sit amet sit amet ante. Aenean pulvinar eget ex ut
+            malesuada. Curabitur at velit non odio aliquet tristique. Phasellus
+            non tempor velit. Pellentesque quis commodo libero. Fusce sit amet
+            mi quis elit volutpat dictum. Suspendisse quis nisi a justo laoreet
+            maximus. Fusce commodo sagittis diam eget interdum. Nam eu tristique
+            diam, suscipit vulputate nunc.
+          </p>
+          <p>
+            Duis bibendum rutrum justo, non bibendum orci pharetra sit amet.
+            Nulla leo est, venenatis nec metus eget, lacinia efficitur ex.
+            Aliquam sit amet varius orci. Quisque pharetra orci quis neque
+            ornare, sed sodales libero suscipit. Aliquam eu tellus tellus. Nunc
+            arcu libero, porttitor tincidunt elit in, volutpat tempus sapien.
+            Nullam vehicula justo eget diam bibendum, et vehicula sapien
+            laoreet. Curabitur ac lacus imperdiet, dignissim justo non, finibus
+            tellus. Pellentesque venenatis leo ex, quis vulputate lacus
+            tristique in. In hac habitasse platea dictumst. Pellentesque
+            ullamcorper eu lectus volutpat gravida. Phasellus accumsan tristique
+            imperdiet. Maecenas ac interdum velit.
+          </p>
+        </div>
+      </div>
+
+      <script src="./assets/scripts/gsap/gsap.min.js"></script>
+      <script src="./assets/scripts/gsap/ScrollTrigger.min.js"></script>
+      <div id="footer"></div>
+    </main>
+    <script>
+      loadComponent("./components/nav-bar.html", "header");
+      loadComponent("./components/footer.html", "footer");
+    </script>
+  </body>
+</html>

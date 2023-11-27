@@ -1,0 +1,38 @@
+#land {
+  height: auto;
+  max-height: auto;
+  background-color: #dbf1f4;
+  padding-bottom: 48px;
+}
+
+#land .body {
+  width: 90%;
+  margin: auto;
+
+  margin-top: 120px;
+}
+
+#land .wrapper {
+  position: relative;
+}
+
+#land .wrapper .body {
+  display: flex;
+}
+
+#land .wrapper .cloud {
+  position: absolute;
+  right: -86%;
+  top: 13%;
+  max-height: 493px;
+}
+
+#land .wrapper .body .button {
+  margin-top: 2rem;
+}
+
+@media(max-width: 800px) {
+  #land .wrapper .cloud {
+    display: none;
+  }
+}

@@ -1,0 +1,303 @@
+.pink-line-behind,
+.right-skyblue-line,
+.left-pink-arrow,
+.right-pink-line {
+  position: relative;
+}
+
+#land .body .text .font-ps {
+  font-size: 2rem;
+}
+
+@media(max-width: 1000px) {
+  #land .wrapper {
+    padding-bottom: 30px;
+  }
+
+  .left-pink-arrow .anim-arrow,
+  .right-pink-line .line,
+  .pink-line-behind .linee {
+    display: none;
+  }
+
+  .day-school #add-on {
+    width: 90%;
+    margin: auto;
+  }
+}
+
+@media(max-width: 800px) {
+
+  .pink-line-behind,
+  .right-skyblue-line,
+  .left-pink-arrow,
+  .right-pink-line {
+    display: none;
+  }
+
+
+}
+
+.left-pink-arrow .anim-arrow {
+  position: absolute;
+
+  top: 0;
+  left: -5%;
+  transform: scaleX(-1);
+}
+
+.right-pink-line .line {
+  position: absolute;
+  right: -5%;
+  top: 10%;
+  z-index: -1;
+  transform: scaleX(-1);
+}
+
+.pink-line-behind .line {
+  position: absolute;
+  left: -5%;
+  bottom: 0;
+  z-index: -1;
+}
+
+
+.right-skyblue-line .anim-arrow {
+  position: absolute;
+  top: 17%;
+  right: 0;
+  filter: hue-rotate(240deg);
+}
+
+.bar-mitzvah h2 {
+  max-width: 774px;
+  margin-bottom: 20px;
+}
+
+#description {
+  margin-top: 90px;
+  margin-bottom: 226px;
+}
+
+@media(max-width: 1001px) {
+  #description {
+    margin: 50px 0 !important;
+  }
+}
+
+#description .wrapper .body {
+  width: 90%;
+  margin: auto;
+
+  display: flex;
+  flex-direction: column;
+  gap: 95px 0;
+
+}
+
+#description .wrapper .body section {
+  display: flex;
+}
+
+#description .wrapper .body .left {
+  width: 30%;
+  position: relative;
+  padding-left: 3rem;
+  display: flex;
+  align-items: center;
+  height: 6rem;
+}
+#description .wrapper .body .left svg {
+  position: absolute;
+  left: 0;
+  height: 6rem;
+  width: auto;
+  z-index: -1;
+}
+
+#description .wrapper .body .right {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+#description .wrapper .body .right p a {
+  color: var(--pink);
+}
+#description .wrapper .body .right p a:hover {
+  color: var(--blue);
+}
+
+
+#extras {
+  margin-bottom: 208px;
+}
+
+#extras .cards-container {
+  height: 530px;
+}
+
+#extras .cards-container .card {
+  width: 100%;
+}
+
+#extras .cards-container .card._1 {
+  max-width: 452px;
+}
+
+#extras .cards-container .card._2 {
+  max-width: 460px;
+}
+
+
+#extras .cards-container .card._1 {
+  padding: 79px 0px 66px 0px;
+}
+
+#extras .cards-container .card._1 .container {
+  width: 70%;
+  margin: auto;
+}
+
+#extras .cards-container .card._1 .title {
+  margin-bottom: 20px;
+}
+
+#extras .cards-container .card._2 h4 {
+  margin-bottom: 33px;
+}
+
+#extras .cards-container .card._1 {
+  margin-bottom: auto;
+}
+
+#extras .cards-container .card._2 {
+  margin-top: auto;
+
+  position: relative;
+}
+
+#extras .cards-container .card._2::after {
+  position: absolute;
+
+  content: url(../../assets/program-email-icon.svg);
+  top: -130px;
+  right: -40px;
+  z-index: -1;
+}
+
+#extras .cards-container .card._2 .body p:first-child {
+  margin-bottom: 20px;
+}
+
+
+.day-school #add-on {
+  margin-bottom: 222px;
+}
+
+#differences .container {
+  width: 63%;
+  margin-left: auto;
+
+  position: relative;
+}
+
+
+#differences .container::before {
+  position: absolute;
+  content: url(../../assets/faqs-icon.svg);
+  top: -43%;
+  left: -47%;
+  z-index: -1;
+}
+
+#differences ul {
+  display: flex;
+  flex-direction: column;
+  gap: 30px 0px;
+
+  margin-top: 30px;
+  margin-left: 3rem;
+}
+
+#differences ul li {
+  position: relative;
+}
+
+#differences ul li::before {
+  position: absolute;
+  content: '';
+  width: 13px;
+  height: 13px;
+  top: 7px;
+  left: -32px;
+
+  border-radius: 50%;
+
+  background-color: var(--blue);
+  box-shadow: 0px 0px 24px #0088CE;
+}
+
+
+#add-on h4 {
+  max-width: 875px;
+  margin: auto;
+}
+
+#add-on .buttons {
+  margin-top: 50px;
+  gap: 30px 70px;
+  flex-wrap: wrap;
+}
+
+
+#add-on .buttons .button {
+  width: 100%;
+  max-width: 234px;
+}
+
+
+@media(min-width: 14400px) {}
+
+@media(max-width: 1200px) {}
+
+@media(max-width: 1000px) {
+  #land .wrapper .cloud {
+    display: none;
+  }
+
+  section.summary {
+    flex-direction: column;
+    gap: 10px 0px;
+  }
+
+  #description .wrapper .body .right {
+    width: 100%;
+  }
+
+  #extras .cards-container {
+    gap: 20px 0px;
+    flex-direction: column;
+    height: auto;
+  }
+
+  #extras *,
+  #extras *::before,
+  #extras *::after {
+    display: none;
+  }
+
+  #differences .container {
+    width: 90%;
+  }
+
+  #differences .container::before {
+    display: none;
+  }
+}
+
+@media(max-width: 800px) {}
+
+@media(max-width: 480px) {}

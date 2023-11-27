@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="./assets/favicon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./stylesheets/general.css" />
+    <link rel="stylesheet" href="./stylesheets/header.css" />
+    <link rel="stylesheet" href="./stylesheets/top-title.css" />
+    <link rel="stylesheet" href="./stylesheets/footer.css" />
+    <link rel="stylesheet" href="./stylesheets/programs/general.css" />
+    <link rel="stylesheet" href="./stylesheets/blog.css" />
+    <link rel="stylesheet" href="./stylesheets/register.css" />
+    <script src="./script.js"></script>
+    <title>Enroll</title>
+  </head>
+
+  <body>
+    <main class="contact">
+      <div id="land">
+        <div class="wrapper">
+          <div id="header"></div>
+
+          <div class="body">
+            <div class="text">
+              <h2 class="light-black bold">Registration Form</h2>
+            </div>
+            <img src="./assets/cloud.svg" alt="cloud" class="cloud" />
+          </div>
+        </div>
+      </div>
+
+      <div id="modal">
+        <div class="wrapper">
+          <div class="modal-progress"></div>
+        </div>
+      </div>
+
+      <script src="./assets/scripts/gsap/gsap.min.js"></script>
+      <script src="./assets/scripts/gsap/ScrollTrigger.min.js"></script>
+      <div id="footer"></div>
+    </main>
+    <script>
+      loadComponent("./components/nav-bar.html", "header");
+      loadComponent("./components/footer.html", "footer");
+    </script>
+  </body>
+</html>

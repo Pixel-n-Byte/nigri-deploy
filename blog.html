@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="./assets/favicon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./stylesheets/general.css" />
+    <link rel="stylesheet" href="./stylesheets/header.css" />
+    <link rel="stylesheet" href="./stylesheets/footer.css" />
+    <link rel="stylesheet" href="./stylesheets/top-title.css" />
+    <link rel="stylesheet" href="./stylesheets/programs/general.css" />
+    <link rel="stylesheet" href="./stylesheets/blog.css" />
+    <script src="./script.js"></script>
+    <title>Blog</title>
+  </head>
+
+  <body>
+    <main class="conversational-hebrew">
+      <div id="land">
+        <div class="wrapper">
+          <div id="header"></div>
+
+          <div class="body">
+            <div class="text">
+              <h2 class="light-black bold">Blog</h2>
+            </div>
+            <img src="./assets/cloud.svg" alt="cloud" class="cloud" />
+          </div>
+        </div>
+      </div>
+
+      <div id="blog-posts">
+        <div class="wrapper">
+          <div class="cards center-jc-sb">
+            <div class="card center-jc-sb flex-column">
+              <div class="top-img gray-bg br-25 center-all">
+                <img
+                  src="./assets/updated assets/img-1.png"
+                  alt="front"
+                  class="front"
+                />
+              </div>
+              <h4 class="title light-black bold ta-center">
+                A blog title here
+              </h4>
+              <p class="body p-18 light-black lh-24 regular ta-center">
+                A short excerpt from the blog or the first sentence goes here.
+              </p>
+              <a
+                href="./blog-single.html"
+                class="button btn-center pink-bg pink-shadow br-25 white regular"
+              >
+                Read More
+              </a>
+            </div>
+            <div class="card center-jc-sb flex-column center-jc-sb flex-column">
+              <div class="top-img gray-bg br-25 center-all">
+                <img
+                  src="./assets/updated assets/img-2.png"
+                  alt="front"
+                  class="front"
+                />
+              </div>
+              <h4 class="title light-black bold ta-center">
+                A blog title here
+              </h4>
+              <p class="body p-18 light-black lh-24 regular ta-center">
+                A short excerpt from the blog or the first sentence goes here.
+              </p>
+              <a
+                href="./blog-single.html"
+                class="button btn-center pink-bg pink-shadow br-25 white regular"
+              >
+                Read More
+              </a>
+            </div>
+            <div class="card center-jc-sb flex-column">
+              <div class="top-img gray-bg br-25 center-all">
+                <img
+                  src="./assets/updated assets/img-3.png"
+                  alt="front"
+                  class="front"
+                />
+              </div>
+              <h4 class="title light-black bold ta-center">
+                A blog title here
+              </h4>
+              <p class="body p-18 light-black lh-24 regular ta-center">
+                A short excerpt from the blog or the first sentence goes here.
+              </p>
+              <a
+                href="./blog-single.html"
+                class="button btn-center pink-bg pink-shadow br-25 white regular"
+              >
+                Read More
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="categories">
+        <div class="wrapper">
+          <form action="" id="category-select">
+            <div class="category-boxes br-15">
+              <label class="category _1 center-all">
+                <input type="radio" name="categories" value="category-1" />
+                <p class="font-ps p-18 light-black regular">Category 1</p>
+              </label>
+              <label class="category _2 center-all">
+                <input type="radio" name="categories" value="category-2" />
+                <p class="font-ps p-18 light-black regular">Category 2</p>
+              </label>
+              <label class="category _3 center-all">
+                <input type="radio" name="categories" value="category-3" />
+                <p class="font-ps p-18 light-black regular">Category 3</p>
+              </label>
+              <label class="category _4 center-all">
+                <input type="radio" name="categories" value="category-4" />
+                <p class="font-ps p-18 light-black regular">Category 4</p>
+              </label>
+            </div>
+          </form>
+          <script>
+            // Get the form element
+            const form = document.getElementById("category-select");
+
+            // Add an event listener to the form
+            form.addEventListener("change", function (event) {
+              event.preventDefault();
+              const selectedCategory = document.querySelector(
+                'input[name="categories"]:checked'
+              );
+
+              // Log the selected value
+              if (selectedCategory) {
+                console.log(selectedCategory.value);
+              } else {
+                console.log("No category selected.");
+              }
+            });
+          </script>
+
+          <div class="blog-boxes-container mobile-flex-column">
+            <div class="column _1 flex-column">
+              <div class="box align-start-jc-sb flex-column">
+                <h4 class="light-black bold">A blog title here</h4>
+                <p class="p-18 light-black regular">
+                  A short excerpt from the blog or the first sentence goes here.
+                  A short excerpt from the blog or the first...
+                </p>
+                <div class="read-more">
+                  <div class="arrow">
+                    <img src="./assets/arrow-icon.svg" alt="arrow" />
+                  </div>
+                  <a href="./blog-single.html" class="font-ps blue p-22 regular">
+                    Read More
+                  </a>
+                </div>
+              </div>
+              <div class="box align-start-jc-sb flex-column">
+                <h4 class="light-black bold">A blog title here</h4>
+                <p class="p-18 light-black regular">
+                  A short excerpt from the blog or the first sentence goes here.
+                  A short excerpt from the blog or the first...
+                </p>
+                <div class="read-more">
+                  <div class="arrow">
+                    <img src="./assets/arrow-icon.svg" alt="arrow" />
+                  </div>
+                  <a href="./blog-single.html" class="font-ps blue p-22 regular">
+                    Read More
+                  </a>
+                </div>
+              </div>
+              <div class="box align-start-jc-sb flex-column">
+                <h4 class="light-black bold">A blog title here</h4>
+                <p class="p-18 light-black regular">
+                  A short excerpt from the blog or the first sentence goes here.
+                  A short excerpt from the blog or the first...
+                </p>
+                <div class="read-more">
+                  <div class="arrow">
+                    <img src="./assets/arrow-icon.svg" alt="arrow" />
+                  </div>
+                  <a href="./blog-single.html" class="font-ps blue p-22 regular">
+                    Read More
+                  </a>
+                </div>
+              </div>
+              <div class="box align-start-jc-sb flex-column">
+                <h4 class="light-black bold">A blog title here</h4>
+                <p class="p-18 light-black regular">
+                  A short excerpt from the blog or the first sentence goes here.
+                  A short excerpt from the blog or the first...
+                </p>
+                <div class="read-more">
+                  <div class="arrow">
+                    <img src="./assets/arrow-icon.svg" alt="arrow" />
+                  </div>
+                  <a href="./blog-single.html" class="font-ps blue p-22 regular">
+                    Read More
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="column _2 flex-column">
+              <div class="box align-start-jc-sb flex-column">
+                <h4 class="light-black bold">A blog title here</h4>
+                <p class="p-18 light-black regular">
+                  A short excerpt from the blog or the first sentence goes here.
+                  A short excerpt from the blog or the first...
+                </p>
+                <div class="read-more">
+                  <div class="arrow">
+                    <img src="./assets/arrow-icon.svg" alt="arrow" />
+                  </div>
+                  <a href="./blog-single.html" class="font-ps blue p-22 regular">
+                    Read More
+                  </a>
+                </div>
+              </div>
+              <div class="box align-start-jc-sb flex-column">
+                <h4 class="light-black bold">A blog title here</h4>
+                <p class="p-18 light-black regular">
+                  A short excerpt from the blog or the first sentence goes here.
+                  A short excerpt from the blog or the first...
+                </p>
+                <div class="read-more">
+                  <div class="arrow">
+                    <img src="./assets/arrow-icon.svg" alt="arrow" />
+                  </div>
+                  <a href="./blog-single.html" class="font-ps blue p-22 regular">
+                    Read More
+                  </a>
+                </div>
+              </div>
+              <div class="box align-start-jc-sb flex-column">
+                <h4 class="light-black bold">A blog title here</h4>
+                <p class="p-18 light-black regular">
+                  A short excerpt from the blog or the first sentence goes here.
+                  A short excerpt from the blog or the first...
+                </p>
+                <div class="read-more">
+                  <div class="arrow">
+                    <img src="./assets/arrow-icon.svg" alt="arrow" />
+                  </div>
+                  <a href="./blog-single.html" class="font-ps blue p-22 regular">
+                    Read More
+                  </a>
+                </div>
+              </div>
+              <div class="box align-start-jc-sb flex-column">
+                <h4 class="light-black bold">A blog title here</h4>
+                <p class="p-18 light-black regular">
+                  A short excerpt from the blog or the first sentence goes here.
+                  A short excerpt from the blog or the first...
+                </p>
+                <div class="read-more">
+                  <div class="arrow">
+                    <img src="./assets/arrow-icon.svg" alt="arrow" />
+                  </div>
+                  <a href="./blog-single.html" class="font-ps blue p-22 regular">
+                    Read More
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <script src="./assets/scripts/gsap/gsap.min.js"></script>
+      <script src="./assets/scripts/gsap/ScrollTrigger.min.js"></script>
+      <div id="footer"></div>
+    </main>
+    <script>
+      loadComponent("./components/nav-bar.html", "header");
+      loadComponent("./components/footer.html", "footer");
+    </script>
+  </body>
+</html>

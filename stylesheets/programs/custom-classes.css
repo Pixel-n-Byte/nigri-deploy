@@ -1,0 +1,7 @@
+.custom-classes #extras .cards-container .card._2::after {
+  display: none;
+}
+
+.custom-classes #add-on {
+  margin-bottom: 0;
+}

@@ -1,0 +1,357 @@
+#form-container {
+  position: relative;
+  max-width: 1500px;
+  margin: auto;
+}
+
+#registration-form .top-steps {
+  position: sticky;
+  top: 0;
+  transition: all .5s;
+}
+
+#registration-form .top-steps::before,
+#registration-form .top-steps::after {
+  position: absolute;
+  content: '';
+}
+
+/*Dashed line */
+#registration-form .top-steps::after {
+  width: 89%;
+  margin: auto;
+  height: 1px;
+  border-top: 2px dashed var(--blue);
+  bottom: 6px;
+  left: 7%;
+  z-index: -1;
+}
+
+/*Progressing circle*/
+
+#registration-form .top-steps .step {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 21px 0;
+}
+
+#registration-form .top-steps .step .circle {
+  width: 16px;
+  height: 16px;
+
+  border-radius: 50%;
+
+  background-color: var(--blue);
+}
+
+#registration-form .body.wrapper {
+  width: 80%;
+}
+
+@media(min-width: 1300px) {
+  #form-container .marital-status {
+    height: 63px;
+  }
+}
+
+@media(max-width: 1299px) {
+  #registration-form form .status-selection label {
+    max-width: none !important;
+  }
+
+  #registration-form form .status-selection label.br {
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+  }
+
+  #registration-form form .status-selection label.br2:has(input[type="radio"]:checked) {
+    border-radius: 0;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+  }
+}
+
+#registration-form input,
+#registration-form textarea {
+  border-radius: 15px;
+  background: #DBF1F4;
+  padding: 20px 40px;
+  border: none;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+#registration-form input:focus,
+#registration-form textarea:focus {
+  outline: var(--blue);
+}
+
+#registration-form .w50p {
+  width: 49%;
+}
+
+
+#registration-form #form-container {
+  padding-top: 135px;
+}
+
+#registration-form form .top-steps {
+  margin-bottom: 69px;
+}
+
+#registration-form form .basic-information .marital-status,
+#registration-form form .title {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#registration-form form button {
+  margin-top: 55px;
+  padding: 1rem 2rem;
+  width: auto;
+}
+
+#registration-form form .marital-status label {
+  padding: 10px 0;
+}
+
+#registration-form form .marital-status .status-selection {
+  width: calc(100% - 15rem);
+  border-radius: 15px;
+  background-color: #DBF1F4;
+  height: 100%;
+}
+
+#registration-form form .status-selection label {
+  width: 100%;
+  max-width: 240px;
+  height: 100%;
+  cursor: pointer;
+}
+
+#registration-form form .status-selection label.br,
+#registration-form form .family-information label.br {
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+#registration-form form .status-selection label.br2,
+#registration-form form .family-information label.br2 {
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+#registration-form form input[type="radio"] {
+  margin: 0;
+  width: 0;
+  height: 0;
+  position: absolute;
+  opacity: 0;
+}
+
+#registration-form form .status-selection label:has(input[type="radio"]:checked),
+#registration-form form .family-information label:has(input[type="radio"]:checked) {
+  background-color: #08374F;
+  border: none;
+}
+
+
+#registration-form input[type="radio"]:checked+p {
+  color: #B4E1E8;
+}
+
+#registration-form form .marital-status .status-selection label {
+  gap: 0 6px;
+}
+
+/* ----------------------------- */
+
+#registration-form form .family-information .options {
+  width: 100%;
+  max-width: calc(100% - 20rem);
+  height: 62px;
+  background-color: #DBF1F4;
+  border-radius: 15px;
+}
+@media(max-width: 1000px) {
+  #registration-form form .family-information .options {
+    max-width: none;
+    width: 100%;
+  }
+}
+
+#registration-form form .option-input {
+  width: 47%;
+}
+
+#registration-form form .family-information .options .option {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+#registration-form form .family-information .options .option._1,
+#registration-form form .family-information .options .option._3 {
+  width: 30%;
+}
+
+#registration-form form .family-information .options .option._2 {
+  width: 40%;
+}
+
+#registration-form form .family-information .options .option._2 {
+  border-right: 1px solid #B4E1E8;
+  border-left: 1px solid #B4E1E8;
+}
+
+#registration-form form .form.inputs._2 .option._3:has(input[type="radio"]:checked) {
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+#registration-form form .family-information .container-top {
+  margin-bottom: 20px;
+  gap: 20px 30px;
+}
+
+#registration-form form .family-information .container-bottom .top {
+  gap: 0 35px;
+}
+
+#registration-form form .family-information .container-bottom textarea {
+  height: 154px;
+  max-height: 300px;
+  max-width: 100%;
+}
+
+#registration-form form .family-information .container-bottom .textarea p {
+  margin-bottom: 20px;
+}
+
+#registration-form form .family-information label {}
+
+#registration-form .input-wrapper.error input.dark-blue.p-18 {
+  border: 1px solid red;
+  margin-bottom: 4px;
+}
+
+#registration-form .input-wrapper.error p {
+  color: red;
+}
+
+@media(min-width: 1400px) {
+  .two-input-container .input-wrapper {
+    max-width: 49% !important;
+  }
+}
+
+@media(max-width: 1280px) {
+  #registration-form .ai-c {
+    align-items: flex-start;
+  }
+}
+
+@media(max-width: 1000px) {
+  #registration-form form .option-input {
+    width: 100%;
+  }
+
+  #registration-form .two-input-container {
+    flex-direction: column;
+  }
+
+  #registration-form form .marital-status {
+    height: auto;
+  }
+
+  #registration-form form input {
+    width: 100%;
+    max-width: none !important;
+  }
+
+  #registration-form form .w50p {
+    width: 100%;
+  }
+
+  #registration-form form .marital-status label {
+    padding: 10px 0;
+    width: 100%;
+  }
+
+  #registration-form form .marital-status label:nth-child(2) {
+    border-top: 1px solid #B4E1E8;
+    border-bottom: 1px solid #B4E1E8;
+  }
+
+  #registration-form form .marital-status label:nth-child(3) {
+    border-bottom: 1px solid #B4E1E8;
+  }
+
+  #registration-form form .marital-status .status-selection {
+    max-width: none;
+    width: 100%;
+  }
+
+  #registration-form form .status-selection label.br,
+  #registration-form form .family-information label.br {
+    border-radius: 0;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+
+  #registration-form form .status-selection label.br2,
+  #registration-form form .family-information label.br2 {
+    border-radius: 0;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+  }
+
+  #registration-form input,
+  #registration-form textarea {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+}
+
+@media(max-width: 768px) {
+  #contact textarea {
+    max-width: none;
+  }
+  #registration-form #form-container button {
+    margin-top: 0;
+  }
+  #registration-form #form-container {
+    margin-bottom: 5rem;
+  }
+  #registration-form form .basic-information .marital-status {
+    margin-top: 0;
+  }
+  .input-wrapper.error {
+    margin-bottom: 1rem;
+  }
+  #registration-form form .family-information .container-bottom .textarea p {
+    margin-bottom: 0;
+  }
+}
+
+@media(max-width: 480px) {
+  #registration-form form .family-information .container-bottom .top {
+    flex-direction: column;
+  }
+
+  #registration-form form .family-information .container-bottom .top .w50p {
+    width: 100%;
+  }
+}
+
+
+#registration-form .contact-form .button {
+  margin-top: 0;
+}
+#registration-form .contact-form {
+  grid-gap: 0;
+}

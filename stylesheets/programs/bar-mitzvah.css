@@ -1,0 +1,73 @@
+.bar-mitzvah #add-on .buttons {
+  margin-top: 27px;
+}
+
+.bar-mitzvah #add-on .button {
+  max-width: 161px;
+}
+
+#bar-extras .cards-container {
+  height: 500px;
+}
+
+#bar-extras .cards-container .card._1 {
+  margin-top: auto;
+}
+
+#bar-extras .cards-container .card._2 {
+  margin-bottom: auto;
+}
+
+#bar-extras {
+  margin-bottom: 146px;
+}
+
+#bar-extras .card._1 .body {
+  padding-left: 32px;
+}
+
+#bar-extras .card._1 h4 {
+  margin-bottom: 27px;
+}
+
+#bar-extras .card._2 {
+  max-width: 397px;
+  height: 354px;
+  gap: 47px 0;
+}
+
+#bar-extras .card._2 p {
+  max-width: 274px;
+}
+
+#bar-extras ul {
+  display: flex;
+  flex-direction: column;
+  gap: 30px 0px;
+}
+
+#bar-extras li {
+  position: relative;
+}
+
+#bar-extras li:hover::before {
+  background: var(--pink);
+  box-shadow: 0px 0px 24px var(--pink);
+  cursor: pointer;
+}
+
+#bar-extras li:hover .description {
+  display: block;
+}
+
+#bar-extras li::before {
+  content: '';
+  position: absolute;
+  width: 13px;
+  height: 13px;
+  background: var(--blue);
+  box-shadow: 0px 0px 24px var(--blue);
+  border-radius: 50%;
+  top: 5px;
+  left: -30px;
+}

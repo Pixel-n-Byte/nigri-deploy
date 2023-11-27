@@ -1,0 +1,119 @@
+@media(max-width: 1000px) {
+  #land .wrapper {
+    padding-bottom: 30px;
+  }
+}
+
+h4 {
+  margin-top: 1rem;
+}
+
+#aditional .bg svg {
+  width: 100vw;
+  height: auto;
+}
+
+#aditional {
+  position: relative;
+  height: auto;
+  margin-bottom: 217px;
+}
+
+#aditional .bg {
+  position: absolute;
+  z-index: -1;
+  height: 100%;
+}
+
+#aditional .bg .bottom {
+  position: relative;
+  top: -15px;
+}
+
+#aditional .wrapper {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  padding-top: 194px;
+}
+
+#aditional .boxes {
+  margin-top: 97px;
+  flex-wrap: wrap;
+  gap: 58px;
+}
+
+#aditional .boxes .box {
+  width: 100%;
+  max-width: 300px;
+  height: 311px;
+  transition: all .25s;
+}
+
+#aditional .boxes .box:hover {
+  background-color: var(--blue) !important;
+  cursor: pointer;
+
+}
+
+#aditional .boxes .box:hover h4,
+#aditional .boxes .box:hover p {
+  color: white;
+}
+
+#aditional .boxes .box .title {
+  height: 65px;
+}
+
+#aditional .boxes .box p {
+  width: 75%;
+  margin: 0 auto;
+  margin-top: 32px;
+}
+
+#bottom h3 {
+  max-width: 755px;
+  margin: 0 auto;
+  line-height: 40px;
+  margin-bottom: 40px;
+}
+
+@media(max-width: 1200px) {
+  #land .wrapper .cloud {
+    scale: .75;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  #programs-container {
+    margin-bottom: 25rem;
+  }
+
+  #aditional {
+    height: auto;
+  }
+
+  #land .wrapper .cloud {
+    scale: .75;
+  }
+}
+
+@media(min-width: 14400px) {}
+
+@media(max-width: 1200px) {}
+
+@media(max-width: 1000px) {
+  #land .wrapper .cloud {
+    display: none;
+  }
+}
+
+@media(max-width: 800px) {
+  #aditional .bg {
+    top: 5%;
+  }
+}
+
+@media(max-width: 480px) {}

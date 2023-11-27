@@ -1,0 +1,43 @@
+<svg id="Group_258" data-name="Group 258" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="199.29" height="58.917" viewBox="0 0 199.29 58.917">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_1" data-name="Rectangle 1" width="199.29" height="58.918" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <g id="Group_5" data-name="Group 5">
+    <g id="Group_2" data-name="Group 2" transform="translate(0 0)">
+      <g id="Group_1" data-name="Group 1" clip-path="url(#clip-path)">
+        <path id="Path_2" data-name="Path 2" d="M20.579,41.264l-1.831-.971a8.886,8.886,0,0,1,1.218-1.747,16.193,16.193,0,0,1,4.746-3.276c.931-.419,1.565-.723,2.033-.969a6.163,6.163,0,0,1-2.758-5.507,4.578,4.578,0,0,1,9.155,0,6.2,6.2,0,0,1-2.671,5.526c.434.241,1.03.539,1.946.95a16.189,16.189,0,0,1,4.746,3.276A8.563,8.563,0,0,1,38.205,40l-1.8,1.024a6.467,6.467,0,0,0-.791-1.1,14.068,14.068,0,0,0-4.048-2.764,18.929,18.929,0,0,1-2.945-1.542,25.029,25.029,0,0,1-3.056,1.542,14.059,14.059,0,0,0-4.049,2.764,6.835,6.835,0,0,0-.935,1.34m8.053-14.888a2.629,2.629,0,0,0-2.578,2.554c-.144,2.223,1.318,3.315,2.575,4.171,1.215-.846,2.589-1.94,2.444-4.171a2.56,2.56,0,0,0-2.44-2.554" transform="translate(-5.031 -6.522)" fill="#fff"/>
+        <path id="Path_3" data-name="Path 3" d="M17.27,60.3a14.806,14.806,0,0,0-.729-2.657C14.25,51.422,6.923,47.052,0,46.764v2.982a16.185,16.185,0,0,1,11.192,3.535A14.909,14.909,0,0,1,16.027,60.3Z" transform="translate(0 -12.548)" fill="#fff"/>
+        <path id="Path_4" data-name="Path 4" d="M20.81,53.075a20.373,20.373,0,0,1,1.8,4.85h1.108a20.709,20.709,0,0,0-1.4-5.153C18.843,44.2,9.709,38.184,0,37.931v2.982A22.11,22.11,0,0,1,20.81,53.075" transform="translate(0 -10.178)" fill="#fff"/>
+        <path id="Path_5" data-name="Path 5" d="M46.548,40.022A23.675,23.675,0,0,0,33.706,52.771a20.847,20.847,0,0,0-1.335,5.153h1.111a20.483,20.483,0,0,1,1.738-4.86A21.927,21.927,0,0,1,56.009,40.912V37.93a26.917,26.917,0,0,0-9.461,2.092" transform="translate(-8.686 -10.178)" fill="#fff"/>
+        <path id="Path_6" data-name="Path 6" d="M51.578,48.374c-4.14,1.824-8.252,5.215-9.774,9.264a14.9,14.9,0,0,0-.728,2.657h1.242a14.913,14.913,0,0,1,4.835-7.015,16.183,16.183,0,0,1,11.192-3.535V46.764a19.168,19.168,0,0,0-6.767,1.61" transform="translate(-11.022 -12.548)" fill="#fff"/>
+        <path id="Path_7" data-name="Path 7" d="M21.37.136A23.7,23.7,0,0,0,.018,23.726H2.436A21.284,21.284,0,0,1,21.37,2.569Z" transform="translate(-0.005 -0.037)" fill="#fff"/>
+        <path id="Path_8" data-name="Path 8" d="M44.227,56.826A21.044,21.044,0,0,1,4,56.821a16.3,16.3,0,0,0-2.563-.075,23.478,23.478,0,0,0,45.352,0,16.336,16.336,0,0,0-2.566.083" transform="translate(-0.387 -15.221)" fill="#fff"/>
+        <path id="Path_9" data-name="Path 9" d="M32.653,13.388v2.42A12.155,12.155,0,0,1,44.074,27.315l2.415-.117a14.577,14.577,0,0,0-13.836-13.81" transform="translate(-8.762 -3.593)" fill="#fff"/>
+        <path id="Path_10" data-name="Path 10" d="M32.653,0V2.417A21.307,21.307,0,0,1,53.547,23.69h2.418A23.727,23.727,0,0,0,32.653,0" transform="translate(-8.762 0)" fill="#fff"/>
+        <path id="Path_11" data-name="Path 11" d="M32.653,6.679V9.1A16.978,16.978,0,0,1,49.131,25.5l2.417-.086a19.391,19.391,0,0,0-18.9-18.734" transform="translate(-8.762 -1.792)" fill="#fff"/>
+        <path id="Path_12" data-name="Path 12" d="M87.846,47.277H83.239V38.193c0-5.346,3.477-8.866,8.736-8.866s8.735,3.52,8.735,8.866v9.084H96.1V38.193c0-2.695-1.652-4.477-4.129-4.477s-4.13,1.782-4.13,4.477Z" transform="translate(-22.336 -7.87)" fill="#fff"/>
+        <path id="Path_13" data-name="Path 13" d="M112.641,19.63a2.829,2.829,0,0,1,2.955-2.956,2.865,2.865,0,0,1,3,2.956,2.831,2.831,0,0,1-3,2.912,2.8,2.8,0,0,1-2.955-2.912m.652,6.867h4.65V43.882h-4.65Z" transform="translate(-30.225 -4.474)" fill="#fff"/>
+        <path id="Path_14" data-name="Path 14" d="M155.764,39.273c0-6.3,3.434-9.649,9.475-9.649h2.39V34.1H165.2c-3,0-4.781,1.738-4.781,5.085v8.171h-4.65Z" transform="translate(-41.796 -7.949)" fill="#fff"/>
+        <path id="Path_15" data-name="Path 15" d="M175.544,19.63a2.829,2.829,0,0,1,2.955-2.956,2.865,2.865,0,0,1,3,2.956,2.831,2.831,0,0,1-3,2.912,2.8,2.8,0,0,1-2.955-2.912M176.2,26.5h4.65V43.882H176.2Z" transform="translate(-47.104 -4.474)" fill="#fff"/>
+        <path id="Path_16" data-name="Path 16" d="M138.385,29.909v1.825a6.779,6.779,0,0,0-5.346-2.346A8.834,8.834,0,0,0,124.26,38.6a8.834,8.834,0,0,0,8.779,9.214,6.779,6.779,0,0,0,5.346-2.346s-.01,1.922-.025,2.311l0,.544a4.894,4.894,0,0,1-9.186,2.226L124.2,50.5A9.54,9.54,0,0,0,143,48.341l.04-18.432Zm-4.694,13.647a4.659,4.659,0,0,1-4.825-4.955,4.691,4.691,0,0,1,4.868-4.955,4.739,4.739,0,0,1,4.912,4.912,4.8,4.8,0,0,1-4.955,5" transform="translate(-33.326 -7.886)" fill="#fff"/>
+      </g>
+    </g>
+    <text id="J" transform="translate(141.135 26.315)" fill="#fff" font-size="10" font-family="FONTSPRINGDEMO-QuinoaRoundBold, FONTSPRING DEMO - Quinoa Round" font-weight="700"><tspan x="0" y="0">J</tspan></text>
+    <text id="EWI" transform="translate(147.874 26.315)" fill="#fff" font-size="10" font-family="FONTSPRINGDEMO-QuinoaRoundBold, FONTSPRING DEMO - Quinoa Round" font-weight="700"><tspan x="0" y="0" letter-spacing="0.146em">EW</tspan><tspan y="0">I</tspan></text>
+    <text id="S" transform="translate(180.048 26.315)" fill="#fff" font-size="10" font-family="FONTSPRINGDEMO-QuinoaRoundBold, FONTSPRING DEMO - Quinoa Round" font-weight="700"><tspan x="0" y="0">S</tspan></text>
+    <text id="H" transform="translate(189.822 26.315)" fill="#fff" font-size="10" font-family="FONTSPRINGDEMO-QuinoaRoundBold, FONTSPRING DEMO - Quinoa Round" font-weight="700"><tspan x="0" y="0">H</tspan></text>
+    <text id="ONLINE" transform="translate(141.004 37.624)" fill="#fff" font-size="4" font-family="FONTSPRINGDEMO-QuinoaRoundBold, FONTSPRING DEMO - Quinoa Round" font-weight="700"><tspan x="0" y="0" letter-spacing="0.154em">ON</tspan><tspan y="0" letter-spacing="0.153em">L</tspan><tspan y="0" letter-spacing="0.154em">IN</tspan><tspan y="0">E</tspan></text>
+    <text id="_S" data-name=" S" transform="translate(168.637 37.624)" fill="#fff" font-size="4" font-family="FONTSPRINGDEMO-QuinoaRoundBold, FONTSPRING DEMO - Quinoa Round" font-weight="700"><tspan x="0" y="0" letter-spacing="0.153em"> </tspan><tspan y="0">S</tspan></text>
+    <text id="C" transform="translate(175.572 37.624)" fill="#fff" font-size="4" font-family="FONTSPRINGDEMO-QuinoaRoundBold, FONTSPRING DEMO - Quinoa Round" font-weight="700"><tspan x="0" y="0">C</tspan></text>
+    <text id="H-2" data-name="H" transform="translate(180.309 37.624)" fill="#fff" font-size="4" font-family="FONTSPRINGDEMO-QuinoaRoundBold, FONTSPRING DEMO - Quinoa Round" font-weight="700"><tspan x="0" y="0">H</tspan></text>
+    <text id="O" transform="translate(185.42 37.624)" fill="#fff" font-size="4" font-family="FONTSPRINGDEMO-QuinoaRoundBold, FONTSPRING DEMO - Quinoa Round" font-weight="700"><tspan x="0" y="0">O</tspan></text>
+    <text id="O-2" data-name="O" transform="translate(190.73 37.624)" fill="#fff" font-size="4" font-family="FONTSPRINGDEMO-QuinoaRoundBold, FONTSPRING DEMO - Quinoa Round" font-weight="700"><tspan x="0" y="0">O</tspan></text>
+    <g id="Group_4" data-name="Group 4" transform="translate(0 0)">
+      <g id="Group_3" data-name="Group 3" clip-path="url(#clip-path)">
+        <text id="L" transform="translate(196.009 37.624)" fill="#fff" font-size="4" font-family="FONTSPRINGDEMO-QuinoaRoundBold, FONTSPRING DEMO - Quinoa Round" font-weight="700"><tspan x="0" y="0">L</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>

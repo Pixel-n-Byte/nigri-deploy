@@ -1,0 +1,16 @@
+/* .slider-arrow.arrow-left {
+  @media screen and (min-width: 1536px) {
+    position: absolute;
+    width: 65px;
+    z-index: 9;
+    left: 10%;
+  }
+}
+.slider-arrow.arrow-right {
+  @media screen and (min-width: 1536px) {
+    position: absolute;
+    width: 65px;
+    z-index: 9;
+    right: 10%;
+  }
+} */
